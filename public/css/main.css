@@ -1,44 +1,82 @@
-/*
-Error: Invalid CSS after "@import 'gallery'": expected "{", was ";"
-        on line 4 of main.scss
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed");
+* {
+  margin: 0 auto; }
 
-1: <<<<<<< HEAD
-2: @import 'navbar'
-3: =======
-4: @import 'gallery';
-5: @import 'contact';
-6: >>>>>>> img-contact
+.navbar {
+  text-align: center;
+  border-bottom: 1px solid;
+  background-color: black; }
 
-Backtrace:
-main.scss:4
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:1278:in `expected'
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:1208:in `expected'
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:1203:in `tok!'
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:677:in `block'
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:670:in `ruleset'
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:696:in `block_child'
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:686:in `block_contents'
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:137:in `stylesheet'
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:41:in `parse'
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/engine.rb:414:in `_to_tree'
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/var/lib/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"@import 'gallery'\": expected \"{\", was \";\"\A         on line 4 of main.scss\A \A 1: <<<<<<< HEAD\A 2: @import 'navbar'\A 3: =======\A 4: @import 'gallery';\A 5: @import 'contact';\A 6: >>>>>>> img-contact"; }
+#menu {
+  padding-top: 10px;
+  list-style-type: none;
+  padding-bottom: 10px; }
+
+#menu li {
+  display: inline-block;
+  margin-right: 50px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  color: white; }
+
+#menu li a {
+  text-decoration: none;
+  color: white; }
+
+.gallery__image {
+  justify-items: center;
+  box-shadow: 5px; }
+
+.gallery__img1 {
+  justify-items: inherit;
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/gold.jpg");
+  background-size: cover; }
+
+.gallery__info {
+  text-align: center; }
+
+.gallery {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+  grid-gap: 10px; }
+
+.gallery__img2 {
+  justify-items: inherit;
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/gold.jpg");
+  background-size: cover; }
+
+.gallery__img3 {
+  justify-items: inherit;
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/gold.jpg");
+  background-size: cover; }
+
+.gallery__img4 {
+  justify-items: inherit;
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/gold.jpg");
+  background-size: cover; }
+
+.gallery__img5 {
+  justify-items: inherit;
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/gold.jpg");
+  background-size: cover; }
+
+.gallery__img6 {
+  justify-items: inherit;
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/gold.jpg");
+  background-size: cover; }
+
+/*# sourceMappingURL=main.css.map */
