@@ -1,0 +1,28 @@
+<!-- for header and footer on website (has to be layout.erb)-->
+<head>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+
+
+<body>
+<h1>Welcome to my site!</h1>
+
+<nav class='navbar'>
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="/about">About</a></li>
+		<li><a href="/review">Review</a></li>
+		<li><a href="/search">Search</a></li>
+	</ul>
+</nav>
+
+<div class='main-container'> <%= yield %> </div>
+<!-- main page "yield" the above passage -->
+
+<div>
+	@copyright Doris 2019
+</div>
+
+<script type="text/javascript" src="javascript/main.js"></script>
+</body>
