@@ -84,10 +84,13 @@
   font-weight: bold; }
 
 .contact {
-  margin-top: 10vh;
+  margin-top: 2vh;
   text-align: center; }
 
 .contact__title {
-  font-size: 4em; }
+  font-size: 3em; }
+
+.contact__content {
+  height: 200px; }
 
 /*# sourceMappingURL=main.css.map */
