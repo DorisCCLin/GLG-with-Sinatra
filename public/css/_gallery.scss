@@ -1,12 +1,13 @@
 .gallery__image {
     justify-items: center;
-    box-shadow: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .gallery__img1 {
     justify-items: inherit;
     width: 200px;
     height: 200px;
-    background-image: url('../img/gold.jpg');
+    background-image: url('../img/goldRing2.jpg');
     background-size: cover;
 }
 .gallery__info {
@@ -23,21 +24,21 @@
     justify-items: inherit;
     width: 200px;
     height: 200px;
-    background-image: url('../img/gold.jpg');
+    background-image: url('../img/goldRing3.png');
     background-size: cover;
 }
 .gallery__img3 {
     justify-items: inherit;
     width: 200px;
     height: 200px;
-    background-image: url('../img/gold.jpg');
+    background-image: url('../img/buddha.jpg');
     background-size: cover;
 }
 .gallery__img4 {
     justify-items: inherit;
     width: 200px;
     height: 200px;
-    background-image: url('../img/gold.jpg');
+    background-image: url('../img/goldChain.jpg');
     background-size: cover;
 }
 .gallery__img5 {
@@ -51,6 +52,9 @@
     justify-items: inherit;
     width: 200px;
     height: 200px;
-    background-image: url('../img/gold.jpg');
+    background-image: url('../img/bracelet.jpg');
     background-size: cover;
+}
+.gallery__info {
+    font-weight: bold;
 }
