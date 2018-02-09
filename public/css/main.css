@@ -73,12 +73,17 @@
   width: 45%;
   float: left; }
 
-#writer {
-  font-size: 20px; }
+#writer, #m-writer1 {
+  padding-top: 25px;
+  font-size: 22px;
+  color: DarkSeaGreen; }
 
-#content {
+#content, #m-content1 {
   padding-left: 10px;
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-style: italic;
+  color: grey; }
 
 /*# sourceMappingURL=main.css.map */

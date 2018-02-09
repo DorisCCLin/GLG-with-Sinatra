@@ -49,14 +49,12 @@
     float: left;
 }
 
-#writer {
-	font-size:20px;
+#writer, #m-writer1 {
+	@include review-writer
 }
 
-#content {
-	padding-left:10px;
-	margin-top:10px;
-	margin-bottom:10px;
+#content, #m-content1 {
+	@include review-content
 }
 
 
