@@ -26,3 +26,11 @@
 	font-style: italic;
 	color:grey;
 }
+
+@mixin review-date{
+	font-size:14px;
+	text-align:right;
+	color:lightgrey;
+	letter-spacing: 1px;
+	font-style: italic;
+}

@@ -44,8 +44,8 @@
 
 #display{
 	font-family: 'Barlow Condensed', sans-serif;
-	margin-left: 5%;
-	width:45%;
+	margin-left: 10%;
+	width:40%;
     float: left;
 }
 
@@ -57,6 +57,9 @@
 	@include review-content
 }
 
+#date, #m-date1{
+	@include review-date
+}
 
 
 

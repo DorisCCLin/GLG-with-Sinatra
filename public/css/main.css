@@ -69,8 +69,8 @@
 
 #display {
   font-family: 'Barlow Condensed', sans-serif;
-  margin-left: 5%;
-  width: 45%;
+  margin-left: 10%;
+  width: 40%;
   float: left; }
 
 #writer, #m-writer1 {
@@ -85,5 +85,12 @@
   font-size: 18px;
   font-style: italic;
   color: grey; }
+
+#date, #m-date1 {
+  font-size: 14px;
+  text-align: right;
+  color: lightgrey;
+  letter-spacing: 1px;
+  font-style: italic; }
 
 /*# sourceMappingURL=main.css.map */
