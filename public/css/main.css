@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed");
-@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed");
 * {
   margin: 0 0; }
 
@@ -23,6 +22,77 @@
 #menu li a {
   text-decoration: none;
   color: white; }
+
+.gallery__image {
+  justify-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.gallery__img1 {
+  justify-items: inherit;
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/goldRing2.jpg");
+  background-size: cover; }
+
+.gallery__info {
+  text-align: center; }
+
+.gallery {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+  grid-gap: 10px; }
+
+.gallery__img2 {
+  justify-items: inherit;
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/goldRing3.png");
+  background-size: cover; }
+
+.gallery__img3 {
+  justify-items: inherit;
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/buddha.jpg");
+  background-size: cover; }
+
+.gallery__img4 {
+  justify-items: inherit;
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/goldChain.jpg");
+  background-size: cover; }
+
+.gallery__img5 {
+  justify-items: inherit;
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/gold.jpg");
+  background-size: cover; }
+
+.gallery__img6 {
+  justify-items: inherit;
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/bracelet.jpg");
+  background-size: cover; }
+
+.gallery__info {
+  font-weight: bold;
+  font-size: 1.1em; }
+
+.contact {
+  margin-top: 2vh;
+  text-align: center; }
+
+.contact__title {
+  font-size: 3em; }
+
+.contact__content {
+  height: 200px; }
 
 .wrapper {
   width: 40%;
@@ -92,5 +162,6 @@
   color: lightgrey;
   letter-spacing: 1px;
   font-style: italic; }
+
 
 /*# sourceMappingURL=main.css.map */
