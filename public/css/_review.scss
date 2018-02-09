@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
 
 .wrapper{
-	// padding:0 auto;
     width:40%;
     margin-left: 5%;
     font-family: 'Barlow Condensed', sans-serif;
     float: left;
+}
+
+.wrapper h2{
+	font-size: 40px;
 }
 
 .review{
@@ -41,20 +44,22 @@
 
 #display{
 	font-family: 'Barlow Condensed', sans-serif;
-	margin-left: 5%;
-	width:45%;
+	margin-left: 10%;
+	width:40%;
     float: left;
 }
 
-#writer {
-	font-size:20px;
+#writer, #m-writer1 {
+	@include review-writer
 }
 
-#content {
-	margin-top:10px;
-	margin-bottom:10px
+#content, #m-content1 {
+	@include review-content
 }
 
+#date, #m-date1{
+	@include review-date
+}
 
 
 

@@ -12,4 +12,25 @@
 }
 
 
+@mixin review-writer{
+    padding-top:25px;
+	font-size:22px;
+	color:DarkSeaGreen ;
+}
 
+@mixin review-content{
+	padding-left:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:18px;
+	font-style: italic;
+	color:grey;
+}
+
+@mixin review-date{
+	font-size:14px;
+	text-align:right;
+	color:lightgrey;
+	letter-spacing: 1px;
+	font-style: italic;
+}
