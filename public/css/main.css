@@ -1,6 +1,11 @@
 #box {
+  background-image: url("../img/img1.jpg");
+  background-size: cover;
+  width: 100%;
   border: 2px solid;
-  height: 100px;
-  width: 400px; }
+  height: 500px;
+  font-size: 40px; 
+  text-decoration-color: purple;
+}
 
 /*# sourceMappingURL=main.css.map */
