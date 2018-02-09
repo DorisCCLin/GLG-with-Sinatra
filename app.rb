@@ -39,6 +39,6 @@ get '/contacting' do
     puts response.status_code
     puts response.body
     puts response.headers
-
+		erb :contact
 end
 
