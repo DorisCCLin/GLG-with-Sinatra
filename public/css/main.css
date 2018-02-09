@@ -4,8 +4,14 @@
   width: 100%;
   border: 2px solid;
   height: 500px;
-  font-size: 40px; 
-  text-decoration-color: purple;
-}
+  font-size: 40px;
+  text-align: center;
+  padding-top: 200px;
+  text-decoration-color: blue; }
+
+#header {
+  background-color: blue;
+  width: 500px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
