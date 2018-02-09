@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed");
 * {
-  margin: 0 auto; }
+  margin: 0 0; }
 
 .navbar {
   text-align: center;
@@ -24,9 +25,10 @@
   color: white; }
 
 .wrapper {
-  padding: 0 auto;
-  width: 50%;
-  margin: 0 auto; }
+  width: 40%;
+  margin-left: 5%;
+  font-family: 'Barlow Condensed', sans-serif;
+  float: left; }
 
 .review {
   margin-top: 20px; }
@@ -61,5 +63,18 @@
 
 .review input[type=submit]:hover {
   background-color: #45a049; }
+
+#display {
+  font-family: 'Barlow Condensed', sans-serif;
+  margin-left: 5%;
+  width: 45%;
+  float: left; }
+
+#writer {
+  font-size: 20px; }
+
+#content {
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */

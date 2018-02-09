@@ -4,16 +4,27 @@
 	<title></title>
 </head>
 <body>
-<div class='wrapper'>
-<h2>Tell us know how we are doing.</h2>
-<form class='review'>
-<p>Name: <br/><input type="text" name="" ><br/></p>
-<p>Email: <br/><input type="email" name=""><br/></p>
-<p>Comments: <br/><textarea></textarea><br/></p>
-<input type="submit" value="Submit">
-</form>
+	<div class='wrapper'>
+		<br/>
+		<h2>Tell us how we are doing.</h2>
+		<form class='review'>
+			<p>Name: <br/><input id='name' type="text" name="" ><br/></p>
+			<p>Email: <br/><input id='email' type="email" name=""><br/></p>
+			<p>Comments: <br/><textarea id='comments' ></textarea><br/></p>
+			<input id='submit' type="submit" value="Submit">
+		</form>
 </div>
 
-<script type="text/javascript" src="javascript/main.js"></script>
+<div id='display'>
+	<br/>
+	<br/>
+	<br/>
+	<div id='writer'><b>writer 1</b></div>
+    <div id='content'> </div>
+    <hr>
+	
+</div>
+
+<script type="text/javascript" src="javascript/review.js"></script>
 </body>
 </html>
