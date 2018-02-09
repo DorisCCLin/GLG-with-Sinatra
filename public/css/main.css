@@ -81,7 +81,8 @@
   background-size: cover; }
 
 .gallery__info {
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 1.1em; }
 
 .contact {
   margin-top: 2vh;

@@ -16,7 +16,6 @@ get '/review' do
 end	
 
 get '/contact' do
-	
 	erb :contact
 end	
 
