@@ -1,3 +1,15 @@
+
+#box {
+  background-image: url("../img/img1.jpg");
+  background-size: cover;
+  width: 100%;
+  border: 2px solid;
+  height: 500px;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 200px;
+  text-decoration-color: blue; }
+
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed");
 * {
   margin: 0 0; }
@@ -163,5 +175,28 @@
   letter-spacing: 1px;
   font-style: italic; }
 
+#header {
+  background-color: blue;
+  width: 500px;
+  margin: 0 auto; }
+
+.para {
+  width: 100%; }
+
+#box2 {
+  background-image: url("../img/img2.jpg");
+  float: right;
+  width: 600px;
+  border: 3px solid hiden;
+  background-size: cover;
+  height: 400px; }
+
+#box3 {
+  background-image: url("../img/img3.jpg");
+  float: left;
+  width: 595px;
+  border: 3px solid hiden;
+  background-size: cover;
+  height: 400px; }
 
 /*# sourceMappingURL=main.css.map */
