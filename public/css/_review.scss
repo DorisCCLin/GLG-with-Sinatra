@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
 
 .wrapper{
-	// padding:0 auto;
     width:40%;
     margin-left: 5%;
     font-family: 'Barlow Condensed', sans-serif;
     float: left;
+}
+
+.wrapper h2{
+	font-size: 40px;
 }
 
 .review{
@@ -51,8 +54,9 @@
 }
 
 #content {
+	padding-left:10px;
 	margin-top:10px;
-	margin-bottom:10px
+	margin-bottom:10px;
 }
 
 
