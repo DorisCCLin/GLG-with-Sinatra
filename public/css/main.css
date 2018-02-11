@@ -1,42 +1,8 @@
-
-#box {
-  background-image: url("../img/img1.jpg");
-  background-size: cover;
-  width: 100%;
-  border: 2px solid;
-  height: 500px;
-  font-size: 40px;
-  text-align: center;
-  padding-top: 200px;
-  text-decoration-color: blue; }
-
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed");
-* {
-  margin: 0 0; }
-
-.navbar {
-  text-align: center;
-  border-bottom: 1px solid;
-  background-color: black; }
-
-#menu {
-  padding-top: 10px;
-  list-style-type: none;
-  padding-bottom: 10px; }
-
-#menu li {
-  display: inline-block;
-  margin-right: 50px;
-  font-family: 'Barlow Condensed', sans-serif;
-  font-size: 18px;
-  color: white; }
-
-#menu li a {
-  text-decoration: none;
-  color: white; }
-
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed");
 .gallery__image {
   justify-items: center;
+  margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 100px; }
 
@@ -96,6 +62,41 @@
   font-weight: bold;
   font-size: 1.1em; }
 
+#box {
+  background-image: url("../img/img1.jpg");
+  background-size: cover;
+  width: 100%;
+  border: 2px solid;
+  height: 500px;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 200px;
+  text-decoration-color: blue; }
+
+#header {
+  background-color: blue;
+  width: 500px;
+  margin: 0 auto; }
+
+.para {
+  width: 100%; }
+
+#box2 {
+  background-image: url("../img/img2.jpg");
+  float: right;
+  width: 600px;
+  border: 3px solid hiden;
+  background-size: cover;
+  height: 400px; }
+
+#box3 {
+  background-image: url("../img/img3.jpg");
+  float: left;
+  width: 595px;
+  border: 3px solid hiden;
+  background-size: cover;
+  height: 400px; }
+
 .contact {
   margin-top: 2vh;
   text-align: center; }
@@ -105,6 +106,41 @@
 
 .contact__content {
   height: 200px; }
+
+.contact__button {
+  font-size: 16px;
+  width: 200px;
+  background-color: #4CAF50;
+  color: white;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 40px; }
+
+* {
+  margin: 0 0; }
+
+.navbar {
+  text-align: center;
+  border-bottom: 1px solid;
+  background-color: black; }
+
+#menu {
+  padding-top: 10px;
+  list-style-type: none;
+  padding-bottom: 10px; }
+
+#menu li {
+  display: inline-block;
+  margin-right: 50px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  color: white; }
+
+#menu li a {
+  text-decoration: none;
+  color: white; }
 
 .wrapper {
   width: 40%;
@@ -174,29 +210,5 @@
   color: lightgrey;
   letter-spacing: 1px;
   font-style: italic; }
-
-#header {
-  background-color: blue;
-  width: 500px;
-  margin: 0 auto; }
-
-.para {
-  width: 100%; }
-
-#box2 {
-  background-image: url("../img/img2.jpg");
-  float: right;
-  width: 600px;
-  border: 3px solid hiden;
-  background-size: cover;
-  height: 400px; }
-
-#box3 {
-  background-image: url("../img/img3.jpg");
-  float: left;
-  width: 595px;
-  border: 3px solid hiden;
-  background-size: cover;
-  height: 400px; }
 
 /*# sourceMappingURL=main.css.map */
