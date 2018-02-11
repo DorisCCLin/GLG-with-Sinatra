@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed");
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed");
+.footer {
+  padding-top: 50px;
+  width: 100%;
+  height: 100px;
+  background-color: dimgrey;
+  text-align: center;
+  color: white;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 1px; }
+
 #box {
   background-image: url("../img/img1.jpg");
   background-size: cover;
