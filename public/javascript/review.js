@@ -16,7 +16,6 @@ submit.addEventListener('click', function(){
 function post(){
 	var title = document.createElement('p')
 	var auth= document.createTextNode(person.value)
-	
     title.appendChild(auth);
     writer.appendChild(title);
 	var  para = document.createElement('p')
